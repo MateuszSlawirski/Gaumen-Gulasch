@@ -36,13 +36,47 @@
             <li><a href="index.html">Startseite</a></li>
             <li><a href="speisekarte.html">Speisekarte</a></li>
             <li><a href="ueber-uns.html">Über uns</a></li>
-            <li><a href="reservierung.html">Reservierung</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
-<h3>Coming Soon... <br>
-Wir sind gerade am Kochen!
-Diese Seite wird bald mit frischen Inhalten serviert.</h3>
+    <!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt & Anfahrt</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        .map-container { margin-top: 30px; border: 1px solid #ddd; }
+        /* Hier würden die CSS-Regeln für die iframe-Karte stehen, um sie responsiv zu machen */
+        .map-container iframe { width: 100%; height: 450px; border: 0; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kontaktieren Sie uns</h1>
+
+        <p>Haben Sie Fragen oder möchten Sie reservieren? Kontaktieren Sie uns gerne!</p>
+
+        <section id="contact-info">
+            <h2>Unsere Kontaktdaten</h2>
+            <p><strong>Adresse:</strong> Alsterufer 34, 20354 Hamburg </p>
+            <p><strong>Telefon:</strong> <a href="tel:+49123456789">+49123456789 (0)</a></p>
+            <p><strong>E-Mail:</strong> <a href="mailto:info@Gaumen-Gulasch.de">info@Gaumen-Gulasch.de</a></p>
+        </section>
+
+        <section id="directions">
+            <h2>So finden Sie uns</h2>
+            <p>Unser Restaurant befindet sich in zentraler Lage und ist gut mit öffentlichen Verkehrsmitteln sowie dem Auto erreichbar.</p>
+
+            <div class="map-container">
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.8902519618634!2d9.995904720215714!3d53.564250635246964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b18f26abc1ebe3%3A0xc24bd550f9b241aa!2sAlsterufer%2034%2C%2020354%20Hamburg!5e0!3m2!1sde!2sde!4v1750288402135!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+        </section>
+    </div>
+
 </body>
 </html>

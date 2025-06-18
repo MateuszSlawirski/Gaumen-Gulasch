@@ -1,36 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ueber-uns</title>
+    <title>Über uns</title>
     <link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Honk&family=Luckiest+Guy&family=Noto+Sans+TC:wght@100..900&display=swap');
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  <style>
+    .honk-text {
+      font-family: "Honk", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+      font-size: 48px;
+    }
+  </style>
+
 </head>
 <body>
 
- <header>
-     <h1>Mateos Gaumen-Gulasch</h1>
-     <p>Traditionelle Küche seit 1990</p>
+    <header>
+        <h1>Mateos Gaumen-Gulasch</h1>
+        <p>Traditionelle Küche seit 1990</p>
     </header>
-    
-    
-    
-    
+
     <nav>
-        <ul>
+        <ul class="main-nav-list">
             <li><a href="index.html">Startseite</a></li>
             <li><a href="speisekarte.html">Speisekarte</a></li>
             <li><a href="ueber-uns.html">Über uns</a></li>
             <li><a href="reservierung.html">Reservierung</a></li>
+        
             <li><a href="events.html">Events</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-    </nav>
+  <h2 id="restaurant-geschichte">Unsere Restaurant-Geschichte (ab 1990)</h2>
+<hr>
+
+<ol class="timeline">
+    <li class="timeline-item">
+        <time datetime="2010">2010</time>
+        <h3>Generationswechsel und kulinarische Erneuerung</h3>
+        <p>2010 übernahm der Sohn des Gründers die Leitung. Dies markierte eine neue Ära, in der die traditionelle Küche durch moderne Einflüsse ergänzt wurde. Eine komplett neue Küche wurde installiert.</p>
+        <details>
+            <summary>Mehr Details</summary>
+            <ul>
+                <li>Fokus auf frische, regionale Zutaten.</li>
+                <li>Schulung des Küchenteams in neuen Kochtechniken.</li>
+            </ul>
+        </details>
+    </li>
+    <li class="timeline-item">
+        <time datetime="2015">2015</time>
+        <h3>Neuer Inhaber: Herr Mateusz Slawirski</h3>
+        <p>Seit 2015 leitet der Sohn des Gründers das Restaurant als Inhaber. Unter seiner Führung liegt der Schwerpunkt auf nachhaltigen Produkten und einem erweiterten Gästeerlebnis.</p>
+    </li>
+    <li class="timeline-item">
+        <time datetime="2017">2017</time>
+        <h3>Digitalisierung und Online-Reservierungen</h3>
+        <p>Im Jahr 2017 haben wir unser Online-Reservierungssystem eingeführt, um unseren Gästen eine bequemere Buchungsmöglichkeit zu bieten. Dies war ein wichtiger Schritt in Richtung Digitalisierung.</p>
+    </li>
+    <li class="timeline-item">
+        <time datetime="2025">Heute</time>
+        <h3>Blick in die Zukunft mit unserem Team</h3>
+        <p>Heute blicken wir auf eine reiche Geschichte zurück und freuen uns auf die Zukunft. Unter der Leitung unseres Restaurantleiters Max Schmidt und Chefköchin Anna Müller entwickeln wir uns ständig weiter, um unseren Gästen das bestmögliche Erlebnis zu bieten. Mehr Details zu unserem Team finden Sie weiter unten.</p>
+    </li>
+</ol>
+
+<h2 id="unser-team">Unser Team</h2>
+<hr>
+
+<section class="team-presentation">
+    <article class="team-member">
+        <h3>Chefkoch Izabela Slawirska</h3>
+        <img src="https://via.placeholder.com/150" alt="Porträt von Chefkoch Anna Müller">
+        <p>Izabela ist seit 20 Jahren in der Gastronomie tätig und bringt ihre Leidenschaft für innovative Küche in jedes Gericht ein.</p>
+    </article>
+    <article class="team-member">
+        <h3>Restaurantleiter Grzegorz Brzęczyszczykiewicz</h3>
+        <img src="https://via.placeholder.com/150" alt="Porträt von Restaurantleiter Max Schmidt">
+        <p>Grzegorz hat 8 Jahre Erfahrung im Restaurantmanagement und sorgt dafür, dass jeder Besuch unvergesslich wird.</p>
+    </article>
     
-    <h3>Coming Soon... <br>
-Wir sind gerade am Kochen!
-Diese Seite wird bald mit frischen Inhalten serviert.</h3>
-    <img src="images\Gerichte.jpg" alt="">
-    
+</section>
+
+  <footer>
+    <p>&copy; 2025 Mateo</p>
+  </footer>
 </body>
-</html>
